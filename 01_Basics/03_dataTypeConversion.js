@@ -55,4 +55,16 @@ True->1; False->0
 
 
 //****************Operations***********//
+// let val =7
+// console.log(-val);
+// console.log(3+6+"5"); /*In js fist value type treated(i.e. 3)
+// as number and then added in 6 nd "5" is string so 3+6=9 +"5"=95* and same vice verca*/
+// console.log("2"+1+7);
+let gameCounter=100
+++gameCounter
+console.log(gameCounter);
 
+//Prefix and postfix 
+let x=4
+let y=x--
+console.log('value of x' , x,'value of y',y)
